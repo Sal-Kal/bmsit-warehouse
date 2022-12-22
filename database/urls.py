@@ -5,6 +5,8 @@ from . import views
 # route_paths for the database app
 
 urlpatterns = [
-    path('add/new/journal/', views.addJournal),
+    path('add/new/conference/', views.addConference),
+    path('get/all/conference/', views.getConferences),
     path('get/all/journal/', views.getJournals),
+    path('get/all/book/', views.getBooks),
 ]
